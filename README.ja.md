@@ -32,7 +32,7 @@
 - リポジトリをCloneします。
 
 ```bash
-git clone https://github.com/nttdata-dataspace/edc-demo.git
+git clone https://github.com/nttdata-dataspace/edc-demo-with-ui.git
 ```
 
 - Dockerコンテナを構築します。

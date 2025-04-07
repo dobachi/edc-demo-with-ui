@@ -34,6 +34,12 @@ To run this demo, you will need to have the following software installed:
 | Data Consumer's Connector | http://localhost:22000 |
 | Data Consumer's Data Server | http://localhost:81 |
 
+- Clone this repository.
+
+```bash
+git clone https://github.com/nttdata-dataspace/edc-demo-with-ui.git
+```
+
 - Launch the Docker containers:
 ```bash
 cd edc-demo
