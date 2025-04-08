@@ -39,6 +39,7 @@ git clone https://github.com/nttdata-dataspace/edc-demo-with-ui.git
 
 ```bash
 cd edc-demo-with-ui
+mkdir consumer-data-server/data
 docker compose up -d
 [+] Running 10/10
  ✔ Container edc-demo-consumer-ui-1            Running                                                                     0.0s 
@@ -90,7 +91,7 @@ docker compose up -d
 
 データ提供者側は、データの在り処、およびデータの利用規約をカタログに登録する必要があります。
 
-左ペインから「Create Data Offer」を選択し、以下の情報を入力します。他の情報はデフォルト値/空欄で問題ありません。
+左ペインから「Create Data Offer」を選択し、以下の情報を入力します。他の情報はデフォルト値/空欄で問題ありません。本手順により、Provider Data Serverに格納されているデータに対して「すべての契約交渉を受け入れる」利用規約を紐づけることが出来ます。
 
 - Data Offer Type/URL：http://provider-data-server:8080/files/sample.txt
 - General Information/Title：Test
@@ -99,7 +100,7 @@ docker compose up -d
 
 入力が完了したら、「Publish」を押下します。
 
-左ペインの「Data Offer」を選択した際、作成した”test”というData OfferがあればOKです。
+左ペインの「Data Offers」を選択した際、作成した”test”というData OfferがあればOKです。
 
 これでデータ提供者側の操作は以上です。
 
@@ -123,7 +124,7 @@ docker compose up -d
 
 「test」を選択し、「Transfer」を押下すると、データ提供者からデータ利用者へのデータ転送が開始されます。
 
-なお、「Transfer」を押下した際に入力を求められるURLの値は「http://consumer-data-server:8080/upload」としてください。「Initiate Transfer」を押下すると、データ転送が開始されます。
+なお、「Transfer」を押下した際に入力を求められるURLの値は「http://consumer-data-server:8080/upload 」 としてください。「Initiate Transfer」を押下すると、データ転送が開始されます。
 
 ![image](images/consumer-transfer-start.png)
 
