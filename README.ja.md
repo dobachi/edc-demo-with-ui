@@ -38,7 +38,7 @@ git clone https://github.com/nttdata-dataspace/edc-demo-with-ui.git
 - Dockerコンテナを構築します。
 
 ```bash
-cd edc-demo
+cd edc-demo-with-ui
 docker compose up -d
 [+] Running 10/10
  ✔ Container edc-demo-consumer-ui-1            Running                                                                     0.0s 
