@@ -3,6 +3,8 @@
 
 - The original repository is published under a mixed license model: Elastic License 2.0 and Apache License 2.0.
 
+- Please note that the docker images are **under the Elastic License 2.0**
+
 - This repository does not include any copied or redistributed source code from the original.
 Instead, it independently builds and extends configuration files and a data server implementation as supplemental components.
 
