@@ -24,10 +24,10 @@
 
 | コンポーネント種別 | クライアント端末からのアクセス方法 |
 | --- | --- |
-| データ提供者のデータサーバ | http://localhost:80 |
+| データ提供者のデータサーバ | http://localhost:8080 |
 | データ提供者のコネクタ | http://localhost:11000 |
 | データ利用者のコネクタ | http://localhost:22000 |
-| データ利用者のデータサーバ | http://localhost:81 |
+| データ利用者のデータサーバ | http://localhost:8081 |
 
 - リポジトリをCloneします。
 
@@ -58,10 +58,10 @@ docker compose up -d
 
 | コンポーネント種別 | クライアント端末からのアクセス方法 |
 | --- | --- |
-| データ提供者のデータサーバ | http://localhost:80 |
+| データ提供者のデータサーバ | http://localhost:8080 |
 | データ提供者のコネクタ | http://localhost:11000 |
 | データ利用者のコネクタ | http://localhost:22000 |
-| データ利用者のデータサーバ | http://localhost:81 |
+| データ利用者のデータサーバ | http://localhost:8081 |
 - 以下のようなUIが確認出来たら、動作確認完了です。
 
 ![image](images/connector-dashboard-ui-home.png)
