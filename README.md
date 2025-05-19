@@ -44,7 +44,7 @@ git clone https://github.com/nttdata-dataspace/edc-demo-with-ui.git
 
 - Launch the Docker containers:
 ```bash
-cd cd edc-demo-with-ui
+cd edc-demo-with-ui
 mkdir consumer-data-server/data
 docker compose up -d
 [+] Running 10/10
