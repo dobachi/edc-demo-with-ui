@@ -1,1 +1,71 @@
-Hello from provider!
+# Manufacturing Sensor Data Log - Tokyo Plant
+# Data Period: 2025-01-15 00:00:00 - 2025-01-15 12:00:00
+# Format: Timestamp, Location, Sensor_Type, Value, Unit, Status
+
+2025-01-15 00:15:23, Assembly_Line_1, Temperature, 23.5, Celsius, Normal
+2025-01-15 00:15:23, Assembly_Line_1, Humidity, 45.2, Percent, Normal
+2025-01-15 00:15:23, Assembly_Line_1, Pressure, 1013.25, hPa, Normal
+2025-01-15 00:30:45, Assembly_Line_1, Temperature, 24.1, Celsius, Normal
+2025-01-15 00:30:45, Assembly_Line_1, Humidity, 44.8, Percent, Normal
+2025-01-15 00:30:45, Assembly_Line_1, Vibration, 0.12, mm/s, Normal
+
+2025-01-15 01:00:00, Warehouse_A, Temperature, 18.3, Celsius, Normal
+2025-01-15 01:00:00, Warehouse_A, Humidity, 55.6, Percent, Normal
+2025-01-15 01:00:00, Warehouse_A, Light_Level, 850, Lux, Normal
+2025-01-15 01:15:30, Warehouse_A, Temperature, 18.5, Celsius, Normal
+2025-01-15 01:15:30, Warehouse_A, Motion_Detected, 1, Boolean, Alert
+
+2025-01-15 02:00:00, Quality_Control, Defect_Count, 2, Units, Normal
+2025-01-15 02:00:00, Quality_Control, Pass_Rate, 98.5, Percent, Normal
+2025-01-15 02:00:00, Quality_Control, Inspection_Time, 125, Seconds, Normal
+
+2025-01-15 03:30:00, Assembly_Line_2, Temperature, 28.7, Celsius, Warning
+2025-01-15 03:30:00, Assembly_Line_2, Humidity, 42.1, Percent, Normal
+2025-01-15 03:30:00, Assembly_Line_2, Vibration, 0.45, mm/s, Warning
+2025-01-15 03:45:00, Assembly_Line_2, Temperature, 29.8, Celsius, Warning
+2025-01-15 03:45:00, Assembly_Line_2, Emergency_Stop, 1, Boolean, Alert
+
+2025-01-15 04:00:00, Power_System, Voltage, 380.5, Volts, Normal
+2025-01-15 04:00:00, Power_System, Current, 125.3, Amperes, Normal
+2025-01-15 04:00:00, Power_System, Power_Factor, 0.92, Ratio, Normal
+2025-01-15 04:00:00, Power_System, Energy_Consumption, 47.6, kWh, Normal
+
+2025-01-15 05:00:00, Production_Line, Units_Produced, 245, Units, Normal
+2025-01-15 05:00:00, Production_Line, Efficiency, 89.3, Percent, Normal
+2025-01-15 05:00:00, Production_Line, Downtime, 12, Minutes, Normal
+
+2025-01-15 06:30:00, Environmental, CO2_Level, 425, ppm, Normal
+2025-01-15 06:30:00, Environmental, Noise_Level, 72.5, dB, Normal
+2025-01-15 06:30:00, Environmental, Air_Quality_Index, 85, Index, Good
+
+2025-01-15 08:00:00, Assembly_Line_1, Temperature, 26.2, Celsius, Normal
+2025-01-15 08:00:00, Assembly_Line_1, Production_Speed, 150, Units/Hour, Normal
+2025-01-15 08:00:00, Assembly_Line_1, Error_Rate, 0.8, Percent, Normal
+
+2025-01-15 09:30:00, Maintenance, Bearing_Temperature, 45.2, Celsius, Normal
+2025-01-15 09:30:00, Maintenance, Oil_Pressure, 3.2, Bar, Normal
+2025-01-15 09:30:00, Maintenance, Filter_Status, 75, Percent, Normal
+
+2025-01-15 10:00:00, Warehouse_B, Inventory_Level, 1250, Units, Normal
+2025-01-15 10:00:00, Warehouse_B, Temperature, 19.5, Celsius, Normal
+2025-01-15 10:00:00, Warehouse_B, Humidity, 48.3, Percent, Normal
+
+2025-01-15 11:00:00, Quality_Control, Defect_Count, 5, Units, Warning
+2025-01-15 11:00:00, Quality_Control, Pass_Rate, 95.2, Percent, Warning
+2025-01-15 11:00:00, Quality_Control, Rejected_Units, 12, Units, Warning
+
+2025-01-15 11:45:00, Assembly_Line_3, Temperature, 32.5, Celsius, Critical
+2025-01-15 11:45:00, Assembly_Line_3, Vibration, 0.89, mm/s, Critical
+2025-01-15 11:45:00, Assembly_Line_3, Emergency_Stop, 1, Boolean, Alert
+2025-01-15 11:45:00, Assembly_Line_3, Alarm_Active, 1, Boolean, Alert
+
+# Summary Statistics
+# Total Data Points: 52
+# Normal Status: 41 (78.8%)
+# Warning Status: 7 (13.5%)
+# Critical Status: 2 (3.8%)
+# Alert Status: 4 (7.7%)
+# Average Temperature: 24.3°C
+# Average Humidity: 47.2%
+# Total Production: 490 units
+# Average Efficiency: 89.3%
